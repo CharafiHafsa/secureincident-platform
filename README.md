@@ -89,7 +89,7 @@ La durée de validité d'un JWT est configurée à **15 minutes (900 000 millise
 Ouvrir un terminal PowerShell et accéder au dossier backend :
 
 ```powershell
-cd X:\s5\AppSec\Projects\secureincident-platform\backend
+cd secureincident-platform\backend
 ```
 
 Vérifier que les variables d'environnement précédentes sont définies, puis lancer Spring Boot avec le profil MySQL :
@@ -111,7 +111,7 @@ Les API REST sont accessibles sous le préfixe :
 Ouvrir un deuxième terminal et accéder au dossier frontend :
 
 ```powershell
-cd X:\s5\AppSec\Projects\secureincident-platform\frontend
+cd secureincident-platform\frontend
 ```
 
 Installer les dépendances :
